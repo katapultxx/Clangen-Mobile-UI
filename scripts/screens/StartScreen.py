@@ -163,31 +163,31 @@ class StartScreen(Screens):
         # Create buttons
 
         self.continue_button = UIImageButton(
-            scale(pygame.Rect((140, 620), (384, 70))),
+            scale(pygame.Rect((50, 250), (1536, 200))),
             "",
             object_id="#continue_button",
             manager=MANAGER,
         )
         self.switch_clan_button = UIImageButton(
-            scale(pygame.Rect((140, 710), (384, 70))),
+            scale(pygame.Rect((50, 450), (1536, 200))),
             "",
             object_id="#switch_clan_button",
             manager=MANAGER,
         )
         self.new_clan_button = UIImageButton(
-            scale(pygame.Rect((140, 800), (384, 70))),
+            scale(pygame.Rect((50, 650), (1536, 200))),
             "",
             object_id="#new_clan_button",
             manager=MANAGER,
         )
         self.settings_button = UIImageButton(
-            scale(pygame.Rect((140, 890), (384, 70))),
+            scale(pygame.Rect((50, 850), (1536, 200))),
             "",
             object_id="#settings_button",
             manager=MANAGER,
         )
         self.quit = UIImageButton(
-            scale(pygame.Rect((140, 980), (384, 70))),
+            scale(pygame.Rect((50, 1050), (1536, 200))),
             "",
             object_id="#quit_button",
             manager=MANAGER,
@@ -330,7 +330,7 @@ class StartScreen(Screens):
 
         self.warning_label = pygame_gui.elements.UITextBox(
             "Warning: this game includes some mild descriptions of gore, violence, and animal abuse",
-            scale(pygame.Rect((100, 1244), (1400, 60))),
+            scale(pygame.Rect((100, 0), (1400, 200))),
             object_id="#default_dark",
             manager=MANAGER,
         )
